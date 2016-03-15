@@ -1,0 +1,141 @@
+// ******************************************************************************
+// Variables
+
+$background-color: #E9E9E9;
+$subtle-background-color: #dddddd;
+$title-color: #009b00;
+$link-color: #009b00;
+$active-link-color: #00ae00;
+$hint-color: #8e8e8e;
+$color: #646464;
+
+$next-link-background-color: #90bd90;
+$next-link-active-background-color: $title-color;
+
+$spacer-height: 65px;
+$spacer-content: 170px;
+
+// ******************************************************************************
+// Global
+
+body {
+	background-color: $background-color;
+	font-size: 16px;
+	color: $color;
+}
+
+// ******************************************************************************
+// Template
+.spacer {
+	height: $spacer-height;
+}
+.container {
+	margin: 0 $spacer-content;
+}
+.page-header {
+	font-size: 46px;
+}
+.hint {
+	color: $hint-color;
+}
+
+h1 {
+	color: $title-color;
+}
+
+section,
+section.container {
+	margin-top: 150vh;
+	padding-top: $spacer-height;
+}
+
+a {
+	text-decoration: none;
+	padding: 12px 24px;
+
+	&:link, &:visited {
+		color: $link-color;
+	}
+	&:hover, &:active {
+		color: $active-link-color;
+	}
+}
+a.next-link {
+	display: inline-block;
+	padding: 12px 24px;
+	color: #FFF;
+	margin-top: $spacer-height;
+
+	&:link, &:visited {
+		background-color: $next-link-background-color;
+	}
+	&:hover, &:active {
+		background-color: $next-link-active-background-color;
+	}
+}
+p, ul {
+	max-width: 600px;
+
+	&.padded {
+		margin-top: 16px;
+	}
+}
+
+// ******************************************************************************
+// image carousel
+$carousel-image-padding: 40px;
+.carousel {
+	overflow: auto;
+	height: 80vh;
+	width: 100%;
+	font-size: 0;
+	white-space: nowrap;
+	padding: $spacer-height 0;
+	background-color: $subtle-background-color;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+
+	.padding {
+		width: $spacer-content - ($carousel-image-padding / 2);
+		display: inline-block;
+	}
+	> a,
+	.next-section-container {
+		padding: 0;
+		height: 100%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	img {
+		display: block;
+		height: 100%;
+		margin: 0 $carousel-image-padding/2;
+		background-color: #FFF;
+	}
+	.next-section-container {
+		width: 50vw;
+		text-align: center;
+		background-color: $background-color;
+		margin: 0 $carousel-image-padding/2;
+
+		.aligner {
+			display: inline-block;
+			height: 100%;
+			width: 0;
+			vertical-align: middle;
+		}
+		a {
+			margin: 0;
+			vertical-align: middle;
+			font-size: 16px;
+		}
+	}
+}
+
+// ******************************************************************************
+// image carousel
+#sec-closing-thoughts {
+	min-height: 100vh;
+}

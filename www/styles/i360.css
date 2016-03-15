@@ -1,0 +1,93 @@
+body {
+  background-color: #E9E9E9;
+  font-size: 16px;
+  color: #646464; }
+
+.spacer {
+  height: 65px; }
+
+.container {
+  margin: 0 170px; }
+
+.page-header {
+  font-size: 46px; }
+
+.hint {
+  color: #8e8e8e; }
+
+h1 {
+  color: #009b00; }
+
+section,
+section.container {
+  margin-top: 150vh;
+  padding-top: 65px; }
+
+a {
+  text-decoration: none;
+  padding: 12px 24px; }
+  a:link, a:visited {
+    color: #009b00; }
+  a:hover, a:active {
+    color: #00ae00; }
+
+a.next-link {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #FFF;
+  margin-top: 65px; }
+  a.next-link:link, a.next-link:visited {
+    background-color: #90bd90; }
+  a.next-link:hover, a.next-link:active {
+    background-color: #009b00; }
+
+p, ul {
+  max-width: 600px; }
+  p.padded, ul.padded {
+    margin-top: 16px; }
+
+.carousel {
+  overflow: auto;
+  height: 80vh;
+  width: 100%;
+  font-size: 0;
+  white-space: nowrap;
+  padding: 65px 0;
+  background-color: #dddddd;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none; }
+  .carousel .padding {
+    width: 150px;
+    display: inline-block; }
+  .carousel > a,
+  .carousel .next-section-container {
+    padding: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top; }
+  .carousel img {
+    display: block;
+    height: 100%;
+    margin: 0 20px;
+    background-color: #FFF; }
+  .carousel .next-section-container {
+    width: 50vw;
+    text-align: center;
+    background-color: #E9E9E9;
+    margin: 0 20px; }
+    .carousel .next-section-container .aligner {
+      display: inline-block;
+      height: 100%;
+      width: 0;
+      vertical-align: middle; }
+    .carousel .next-section-container a {
+      margin: 0;
+      vertical-align: middle;
+      font-size: 16px; }
+
+#sec-closing-thoughts {
+  min-height: 100vh; }
+
+/*# sourceMappingURL=i360.css.map */
