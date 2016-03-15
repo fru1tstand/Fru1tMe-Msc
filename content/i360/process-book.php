@@ -41,12 +41,13 @@ HTML;
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Blog</title>
+	<title>INFO 360: Process Book</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <!--	<link rel="stylesheet" href="/styles/cache/raleway.css" />-->
 
+	<link rel="shortcut icon" href="https://s3.amazonaws.com/ks_web/fru1t.me/favicon.ico" />
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:400,600'>
 	<link rel="stylesheet" href="/styles/global.css" />
 	<link rel="stylesheet" href="/styles/i360.css" />
