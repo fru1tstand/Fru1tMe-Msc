@@ -350,7 +350,7 @@ HTML;
 			or gaining ideas from the same sessions, the journey taken through weeks of iteration,
 			documentation, and presentation brought together our group of 3 to create a
 			masterpiece of design.</p>
-		<p class="padded"><iframe width="853" height="480" src="https://www.youtube.com/embed/m28LEAdd9R4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+		<p class="padded"><iframe width="853" height="480" src="https://www.youtube.com/embed/gUplD3ZOSjQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 		<p class="padded"><a href="http://i360.fru1t.me/">Live Prototype</a></p>
 		<a href="#sec-closing-thoughts" class="next-link">Closing Thoughts</a>
 	</section>
