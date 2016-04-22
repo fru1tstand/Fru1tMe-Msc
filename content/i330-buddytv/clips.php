@@ -16,9 +16,9 @@ $body = <<<HTML
 				<div class="type">CLIPS</div>
 			</div>
 			<div class="content">
-				<a class="title" href="#">'Game of Thrones' Clips Reveal Bad Starts for Sansa, Cersei and Dany</a>
+				<a class="title" href="https://www.youtube.com/watch?v=N6sobj8azzQ">'Game of Thrones' Clips Reveal Bad Starts for Sansa, Cersei and Dany</a>
 				<div class="sub-paragraph">Game of Thrones is less than two weeks away from debuting season 6, with excitement building every day.</div>
-				<a href="#">Watch Now <i class="fa fa-angle-double-right"></i></a>
+				<a href="https://www.youtube.com/watch?v=N6sobj8azzQ">Watch Now <i class="fa fa-angle-double-right"></i></a>
 			</div>
 		</div>
 		<div class="card">
