@@ -29,6 +29,9 @@ class BuddyTvTemplate extends Content {
 		$clipsClass = ($fields[self::OPTION_TAB] == "5") ? "active" : "";
 
 		return <<<HTML
+<!-- Check out how this was made at https://github.com/fru1tstand/Fru1tMe-Msc
+Commit: https://github.com/fru1tstand/Fru1tMe-Msc/commit/ebf5e337f1b1c37bd93425e314c74d876bef7695
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
