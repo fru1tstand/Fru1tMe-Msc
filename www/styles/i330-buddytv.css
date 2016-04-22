@@ -1,0 +1,402 @@
+* {
+  box-sizing: border-box; }
+
+html, body,
+button {
+  font-family: Arial, Helvetica, sans-serif; }
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+table, tr, td, th, thead, tbody, tfoot,
+p {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 950px;
+  margin: 0 auto; }
+
+.global-nav {
+  background-color: #33abdf;
+  color: #fff;
+  height: 84px;
+  border-bottom: 10px solid #000; }
+  .global-nav a {
+    display: inline-block;
+    vertical-align: top; }
+    .global-nav a:link, .global-nav a:visited {
+      color: #fff;
+      text-decoration: none; }
+    .global-nav a:hover, .global-nav a:active {
+      text-decoration: underline; }
+    .global-nav a.text {
+      margin: 24px 3px 0 0;
+      padding: 3px 8px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 400;
+      color: #fff;
+      font-family: 'Roboto Condensed', sans-serif; }
+    .global-nav a.applink {
+      background: url("http://web.buddytv.com/css/images/download-app-holiday.png?v=112315a") 0 0 no-repeat;
+      background-size: cover;
+      height: 32px;
+      width: 98px;
+      margin-top: 22px;
+      margin-left: 5px; }
+    .global-nav a.brand {
+      padding-top: 12px;
+      margin-left: -6px; }
+  .global-nav .search-container {
+    margin: 22px 15px 2px 5px;
+    display: inline-block;
+    border-bottom: 2px solid #FFF; }
+  .global-nav .search {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 125px;
+    border: none;
+    background: transparent;
+    color: #FFF;
+    padding: 2px; }
+    .global-nav .search::-webkit-input-placeholder {
+      color: #EEE; }
+  .global-nav .search-glass {
+    display: inline-block;
+    vertical-align: bottom;
+    background: url("http://web.buddytv.com/css/images/new-header-sprite.png?v=112315a") 0px -52px no-repeat;
+    height: 25px;
+    width: 28px; }
+
+.global-brand {
+  background: url("http://web.buddytv.com/css/images/new-header-sprite.png?v=112315a") top left no-repeat;
+  width: 115px;
+  height: 46px; }
+
+.global-nav-feedback-container > div {
+  display: inline-block; }
+
+.global-brand-width {
+  width: 115px;
+  height: 1px; }
+
+.global-content {
+  margin-bottom: 24px; }
+
+.show-nav {
+  padding: 12px 0 10px; }
+  .show-nav .title {
+    color: #333;
+    font-size: 45px;
+    text-shadow: none;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold; }
+  .show-nav .nav {
+    border-bottom: 2px solid #33abdf;
+    padding-bottom: 11px; }
+  .show-nav a {
+    border-bottom: 11px solid;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 18px; }
+    .show-nav a:link, .show-nav a:visited {
+      border-color: transparent;
+      color: #999; }
+    .show-nav a.active, .show-nav a:hover, .show-nav a:active {
+      color: #000;
+      border-color: #33abdf; }
+
+.show-filter {
+  font-size: 14px;
+  text-align: right;
+  margin-top: -58px; }
+  .show-filter .help {
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 100%;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center; }
+
+.show-sub-title {
+  font-size: 25px;
+  line-height: 1em;
+  margin-bottom: 8px;
+  color: #000000;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.sub-nav {
+  padding-bottom: 11px;
+  border-bottom: 2px solid #33abdf; }
+  .sub-nav .title {
+    color: #333;
+    font-size: 45px;
+    text-shadow: none;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold; }
+  .sub-nav .nav {
+    border-bottom: 2px solid #33abdf;
+    padding-bottom: 11px; }
+  .sub-nav a {
+    border-bottom: 11px solid;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 15px; }
+    .sub-nav a:link, .sub-nav a:visited {
+      border-color: transparent;
+      color: #999; }
+    .sub-nav a.active, .sub-nav a:hover, .sub-nav a:active {
+      color: #000;
+      border-color: #33abdf; }
+
+.cards-list {
+  padding-top: 10px;
+  padding-bottom: 40px; }
+
+.card {
+  font-size: 0;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px dotted #CCC; }
+  .card .image {
+    width: 98px;
+    display: inline-block;
+    vertical-align: top; }
+    .card .image img {
+      width: 98px;
+      height: 65px;
+      border-radius: 4px 4px 0 0;
+      display: block; }
+    .card .image .type {
+      height: 18px;
+      background-color: #000;
+      border-radius: 0 0 4px 4px;
+      font-size: 10px;
+      text-align: center;
+      line-height: 18px;
+      color: #FFF;
+      text-transform: uppercase; }
+  .card .content {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 852px;
+    padding-left: 10px; }
+    .card .content a.title {
+      line-height: 18px;
+      color: #000;
+      font-size: 16px; }
+      .card .content a.title:link, .card .content a.title:visited {
+        text-decoration: none; }
+      .card .content a.title:hover, .card .content a.title:active {
+        text-decoration: underline; }
+    .card .content .sub-paragraph {
+      font-size: 12px;
+      color: #999; }
+    .card .content .sub-line {
+      width: 852px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: #999;
+      font-size: 12px; }
+    .card .content a {
+      font-size: 12px;
+      color: #029cc6; }
+      .card .content a:link, .card .content a:visited {
+        text-decoration: none; }
+      .card .content a:hover, .card .content a:active {
+        text-decoration: underline; }
+      .card .content a i {
+        font-size: 8px; }
+
+.games-list {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px; }
+  .games-list .game {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    color: #DDD; }
+    .games-list .game:link, .games-list .game:visited {
+      text-decoration: none; }
+    .games-list .game:hover, .games-list .game:active {
+      text-decoration: underline; }
+    .games-list .game img {
+      width: 196px;
+      height: 130px;
+      border-radius: 4px 4px 0 0;
+      display: block; }
+    .games-list .game .title {
+      height: 26px;
+      background-color: #000;
+      border-radius: 0 0 4px 4px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 26px; }
+
+.back-to-forum {
+  color: #AAA; }
+  .back-to-forum:link, .back-to-forum:visited {
+    text-decoration: none; }
+  .back-to-forum:hover, .back-to-forum:active {
+    text-decoration: underline; }
+
+.thread-post {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  font-size: 0;
+  background-color: #F9F9F9; }
+  .thread-post .side {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top; }
+  .thread-post img {
+    display: block;
+    width: 100%;
+    border-radius: 5px; }
+  .thread-post .date {
+    color: #999;
+    font-size: 12px; }
+  .thread-post .content {
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+    width: 778px;
+    padding-left: 10px;
+    color: #333; }
+  .thread-post p {
+    padding-bottom: 10px; }
+  .thread-post .report-label {
+    display: inline-block;
+    color: #AAA;
+    font-size: 12px;
+    cursor: pointer; }
+  .thread-post .report-label-container {
+    text-align: right; }
+
+.reply-thread {
+  margin-top: 20px; }
+  .reply-thread div {
+    font-size: 14px;
+    color: #AAA; }
+  .reply-thread textarea {
+    display: block;
+    width: 400px;
+    height: 100px;
+    font-family: Arial, serif; }
+  .reply-thread button {
+    margin-left: 340px;
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    padding: 3px 8px; }
+    .reply-thread button:hover {
+      background-color: #F3F3F3; }
+
+.controller {
+  display: none; }
+
+.thread-responses {
+  margin-top: 20px;
+  color: #555; }
+  .thread-responses .username {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #999;
+    font-size: 13px; }
+  .thread-responses .card > .card {
+    margin-top: 10px;
+    margin-left: 20px; }
+  .thread-responses p {
+    padding-bottom: 10px; }
+
+.report-form {
+  background-color: #ff8489;
+  padding: 10px;
+  font-size: 0; }
+  .report-form > div {
+    display: inline-block;
+    vertical-align: top; }
+  .report-form .report-form-title {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px; }
+  .report-form .left {
+    width: 300px;
+    font-size: 14px; }
+    .report-form .left label {
+      color: #333;
+      font-size: 12px; }
+  .report-form .right {
+    width: 400px; }
+    .report-form .right textarea {
+      width: 400px;
+      font-family: Arial, serif;
+      height: 100px; }
+  .report-form .righter {
+    width: 230px; }
+    .report-form .righter label, .report-form .righter a {
+      display: block;
+      text-decoration: none;
+      padding: 3px 8px;
+      font-size: 14px;
+      color: #333;
+      border-left: 2px solid #333;
+      margin-left: 10px;
+      margin-bottom: 4px;
+      cursor: pointer; }
+      .report-form .righter label:hover, .report-form .righter a:hover {
+        background-color: rgba(1, 1, 1, 0.3); }
+
+#report-form-controller:not(:checked) + .report-form {
+  display: none; }
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nL3QFSXBldIn45k5A7iXhnc.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(http://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsDR-eWpsHSw83BRsAQElGgc.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(http://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nDokq8qT6AIiNJ07Vf_NrVA.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url(http://fonts.gstatic.com/s/robotocondensed/v13/mg0cGfGRUERshzBlvqxeAMgYS_4b_j8XZWrBSrn8QbY.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url(http://fonts.gstatic.com/s/robotocondensed/v13/BP5K8ZAJv9qEbmuFp8RpJdNyc1nIn01s4QPT2l20KA4.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url(http://fonts.gstatic.com/s/robotocondensed/v13/mg0cGfGRUERshzBlvqxeAIvse0WFWMXD6DWBLcV41iQ.ttf) format("truetype"); }
+
+/*# sourceMappingURL=i330-buddytv.css.map */
