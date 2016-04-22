@@ -76,6 +76,8 @@ Commit: https://github.com/fru1tstand/Fru1tMe-Msc/commit/ebf5e337f1b1c37bd93425e
 				<option>Season 1</option>
 				<option>Season 2</option>
 				<option selected="selected">Season 3</option>
+				<option>Season 4</option>
+				<option>Season 5</option>
 			</select>
 			<select>
 				<option>Episode 1</option>
