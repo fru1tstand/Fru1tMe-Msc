@@ -15,9 +15,9 @@ $body = <<<HTML
 				<div class="type">NEWS</div>
 			</div>
 			<div class="content">
-				<a class="title" href="#">HBO Renews 'Game of Thrones', 'Veep', and 'Silicon Valley' for 2017</a>
+				<a class="title" href="http://variety.com/2016/tv/news/game-of-thrones-silicon-valley-veep-renewed-at-hbo-1201758334/">HBO Renews 'Game of Thrones', 'Veep', and 'Silicon Valley' for 2017</a>
 				<div class="sub-paragraph">Three days before HBO is premiering the new seasons of Game of Thrones, Veep and Silicon Valley, the network has renewed all three shows for additional seasons.</div>
-				<a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+				<a href="http://variety.com/2016/tv/news/game-of-thrones-silicon-valley-veep-renewed-at-hbo-1201758334/">Read more <i class="fa fa-angle-double-right"></i></a>
 			</div>
 		</div>
 		<div class="card">
