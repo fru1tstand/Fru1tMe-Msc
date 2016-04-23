@@ -4,7 +4,7 @@ require_once PHP_ROOT . '/fmmsc/Setup.php';
 $body = <<<HTML
 <div class="container">
 	<div class="game-flash">
-		<img src="http://i.imgur.com/5aSqUb8.png" />
+		<img style="width:100%;" src="http://i.imgur.com/5aSqUb8.png" />
 	</div>
 </div>
 HTML;
