@@ -16,12 +16,12 @@ $body = <<<HTML
 				<div class="type">FORUM</div>
 			</div>
 			<div class="content">
-				<a class="title" href="#">Predicting the 9 biggest Moments of Game of Thrones Season 6</a>
+				<a class="title" href="/i330-buddytv/forum/predicting-the-9-biggest-moments-of-game-of-thrones-season-6">Predicting the 9 biggest Moments of Game of Thrones Season 6</a>
 				<div class="sub-line">[2 minutes ago] Calling it now - Dany will not be leaving Essos in Season 6. There's not not enough time. Dany needs to be wiser - I think that that's where the new Dothraki plot line is headed. She needs to learn that ruling is more than dictating your wants.</div>
 				<div class="sub-line">[2 minutes ago] Here's my prediction: Sansa's pregnant.</div>
 				<div class="sub-line">[3 minutes ago] I like this list! Lots of cool ideas! What do you guys think of this? 1 Jon Snow's Funeral. Savos, Mel and Jon's loyal friend are all gonna talk some sense</div>
 				<div class="sub-line">[5 minutes ago] "All the plot threads (yes, even the boring Greyjoy ones)" - What did he mean by this?</div>
-				<a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+				<a href="/i330-buddytv/forum/predicting-the-9-biggest-moments-of-game-of-thrones-season-6">Read more <i class="fa fa-angle-double-right"></i></a>
 			</div>
 		</div>
 		<div class="card">
